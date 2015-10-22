@@ -29,9 +29,13 @@ class ViewController: UIViewController {
     // UI Elements linked to the storyboard
     @IBOutlet weak var topButton: UIButton!         // Has TAG = 1
     @IBOutlet weak var bottomButton: UIButton!      // Has TAG = 2
-    @IBOutlet weak var storyTextView: UITextView!
+    @IBOutlet weak var storyTextView: UILabel!
     
     // TODO Step 5: Initialise instance variables here
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
