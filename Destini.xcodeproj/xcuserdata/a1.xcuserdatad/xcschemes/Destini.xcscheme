@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -49,6 +49,16 @@
                BlueprintIdentifier = "EBB1C74F1B9633A70011F5C3"
                BuildableName = "DestiniTests.xctest"
                BlueprintName = "DestiniTests"
+               ReferencedContainer = "container:Destini.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "630FA7D11D708F1300178538"
+               BuildableName = "DestiniUITests.xctest"
+               BlueprintName = "DestiniUITests"
                ReferencedContainer = "container:Destini.xcodeproj">
             </BuildableReference>
          </TestableReference>
