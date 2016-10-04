@@ -52,16 +52,6 @@
                ReferencedContainer = "container:Destini.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "630FA7D11D708F1300178538"
-               BuildableName = "DestiniUITests.xctest"
-               BlueprintName = "DestiniUITests"
-               ReferencedContainer = "container:Destini.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

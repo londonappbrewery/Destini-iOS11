@@ -7,36 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630FA7D51D708F1300178538 /* DestiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FA7D41D708F1300178538 /* DestiniUITests.swift */; };
 		EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */; };
 		EBB1C7431B9633A60011F5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7421B9633A60011F5C3 /* ViewController.swift */; };
 		EBB1C7461B9633A60011F5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB1C7441B9633A60011F5C3 /* Main.storyboard */; };
 		EBB1C7481B9633A60011F5C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB1C7471B9633A60011F5C3 /* Images.xcassets */; };
 		EBB1C74B1B9633A60011F5C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB1C7491B9633A60011F5C3 /* LaunchScreen.xib */; };
-		EBB1C7571B9633A70011F5C3 /* DestiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7561B9633A70011F5C3 /* DestiniTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		630FA7D71D708F1300178538 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBB1C7331B9633A60011F5C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBB1C73A1B9633A60011F5C3;
-			remoteInfo = Destini;
-		};
-		EBB1C7511B9633A70011F5C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBB1C7331B9633A60011F5C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBB1C73A1B9633A60011F5C3;
-			remoteInfo = Destini;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		630FA7D21D708F1300178538 /* DestiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		630FA7D41D708F1300178538 /* DestiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniUITests.swift; sourceTree = "<group>"; };
-		630FA7D61D708F1300178538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB1C73B1B9633A60011F5C3 /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB1C73F1B9633A60011F5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,27 +22,10 @@
 		EBB1C7451B9633A60011F5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBB1C7471B9633A60011F5C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBB1C74A1B9633A60011F5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EBB1C7501B9633A70011F5C3 /* DestiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBB1C7551B9633A70011F5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB1C7561B9633A70011F5C3 /* DestiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		630FA7CF1D708F1300178538 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EBB1C7381B9633A60011F5C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBB1C74D1B9633A70011F5C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,21 +35,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		630FA7D31D708F1300178538 /* DestiniUITests */ = {
-			isa = PBXGroup;
-			children = (
-				630FA7D41D708F1300178538 /* DestiniUITests.swift */,
-				630FA7D61D708F1300178538 /* Info.plist */,
-			);
-			path = DestiniUITests;
-			sourceTree = "<group>";
-		};
 		EBB1C7321B9633A60011F5C3 = {
 			isa = PBXGroup;
 			children = (
 				EBB1C73D1B9633A60011F5C3 /* Destini */,
-				EBB1C7531B9633A70011F5C3 /* DestiniTests */,
-				630FA7D31D708F1300178538 /* DestiniUITests */,
 				EBB1C73C1B9633A60011F5C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				EBB1C73B1B9633A60011F5C3 /* Destini.app */,
-				EBB1C7501B9633A70011F5C3 /* DestiniTests.xctest */,
-				630FA7D21D708F1300178538 /* DestiniUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,44 +72,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EBB1C7531B9633A70011F5C3 /* DestiniTests */ = {
-			isa = PBXGroup;
-			children = (
-				EBB1C7561B9633A70011F5C3 /* DestiniTests.swift */,
-				EBB1C7541B9633A70011F5C3 /* Supporting Files */,
-			);
-			path = DestiniTests;
-			sourceTree = "<group>";
-		};
-		EBB1C7541B9633A70011F5C3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBB1C7551B9633A70011F5C3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		630FA7D11D708F1300178538 /* DestiniUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 630FA7D91D708F1300178538 /* Build configuration list for PBXNativeTarget "DestiniUITests" */;
-			buildPhases = (
-				630FA7CE1D708F1300178538 /* Sources */,
-				630FA7CF1D708F1300178538 /* Frameworks */,
-				630FA7D01D708F1300178538 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				630FA7D81D708F1300178538 /* PBXTargetDependency */,
-			);
-			name = DestiniUITests;
-			productName = DestiniUITests;
-			productReference = 630FA7D21D708F1300178538 /* DestiniUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		EBB1C73A1B9633A60011F5C3 /* Destini */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBB1C75A1B9633A70011F5C3 /* Build configuration list for PBXNativeTarget "Destini" */;
@@ -179,47 +92,19 @@
 			productReference = EBB1C73B1B9633A60011F5C3 /* Destini.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EBB1C74F1B9633A70011F5C3 /* DestiniTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EBB1C75D1B9633A70011F5C3 /* Build configuration list for PBXNativeTarget "DestiniTests" */;
-			buildPhases = (
-				EBB1C74C1B9633A70011F5C3 /* Sources */,
-				EBB1C74D1B9633A70011F5C3 /* Frameworks */,
-				EBB1C74E1B9633A70011F5C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EBB1C7521B9633A70011F5C3 /* PBXTargetDependency */,
-			);
-			name = DestiniTests;
-			productName = DestiniTests;
-			productReference = EBB1C7501B9633A70011F5C3 /* DestiniTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EBB1C7331B9633A60011F5C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
-					630FA7D11D708F1300178538 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EBB1C73A1B9633A60011F5C3;
-					};
 					EBB1C73A1B9633A60011F5C3 = {
 						CreatedOnToolsVersion = 6.4;
 						LastSwiftMigration = 0800;
-					};
-					EBB1C74F1B9633A70011F5C3 = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
-						TestTargetID = EBB1C73A1B9633A60011F5C3;
 					};
 				};
 			};
@@ -237,20 +122,11 @@
 			projectRoot = "";
 			targets = (
 				EBB1C73A1B9633A60011F5C3 /* Destini */,
-				EBB1C74F1B9633A70011F5C3 /* DestiniTests */,
-				630FA7D11D708F1300178538 /* DestiniUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		630FA7D01D708F1300178538 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EBB1C7391B9633A60011F5C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,24 +137,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB1C74E1B9633A70011F5C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		630FA7CE1D708F1300178538 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				630FA7D51D708F1300178538 /* DestiniUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EBB1C7371B9633A60011F5C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,28 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB1C74C1B9633A70011F5C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBB1C7571B9633A70011F5C3 /* DestiniTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		630FA7D81D708F1300178538 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EBB1C73A1B9633A60011F5C3 /* Destini */;
-			targetProxy = 630FA7D71D708F1300178538 /* PBXContainerItemProxy */;
-		};
-		EBB1C7521B9633A70011F5C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EBB1C73A1B9633A60011F5C3 /* Destini */;
-			targetProxy = EBB1C7511B9633A70011F5C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBB1C7441B9633A60011F5C3 /* Main.storyboard */ = {
@@ -331,39 +171,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		630FA7DA1D708F1300178538 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = DestiniUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.DestiniUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Destini;
-			};
-			name = Debug;
-		};
-		630FA7DB1D708F1300178538 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				INFOPLIST_FILE = DestiniUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.DestiniUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Destini;
-			};
-			name = Release;
-		};
 		EBB1C7581B9633A70011F5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -403,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -443,9 +250,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -470,55 +278,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		EBB1C75E1B9633A70011F5C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DestiniTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini.app/Destini";
-			};
-			name = Debug;
-		};
-		EBB1C75F1B9633A70011F5C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = "";
-				INFOPLIST_FILE = DestiniTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini.app/Destini";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		630FA7D91D708F1300178538 /* Build configuration list for PBXNativeTarget "DestiniUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				630FA7DA1D708F1300178538 /* Debug */,
-				630FA7DB1D708F1300178538 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		EBB1C7361B9633A60011F5C3 /* Build configuration list for PBXProject "Destini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -533,15 +299,6 @@
 			buildConfigurations = (
 				EBB1C75B1B9633A70011F5C3 /* Debug */,
 				EBB1C75C1B9633A70011F5C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBB1C75D1B9633A70011F5C3 /* Build configuration list for PBXNativeTarget "DestiniTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBB1C75E1B9633A70011F5C3 /* Debug */,
-				EBB1C75F1B9633A70011F5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
