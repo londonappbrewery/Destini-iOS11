@@ -1,5 +1,5 @@
 # Destini
-Learn to make iOS Apps 📱 | Project Stub | (Swift 2.0/Xcode 7) - Destini App
+Learn to make iOS Apps 📱 | Project Stub | (Swift 3.0/Xcode 8) - Destini App
 
 Download the starter project files as .zip and extract to your desktop. --->
 
@@ -8,4 +8,4 @@ Download the starter project files as .zip and extract to your desktop. --->
 
 
 
-Copyright 2015 London App Brewery
+Copyright 2016 London App Brewery
