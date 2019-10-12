@@ -82,22 +82,19 @@ class ViewController: UIViewController {
             } else {
                 
                 storySelected = story4
-                topButtonAnswer = "..."
-                bottomButtonAnswer = "..."
+                hideButtons()
             
             }
         } else if storySelected == story3 {
             if sender.tag == 1 {
                 
                 storySelected = story6
-                topButtonAnswer = "..."
-                bottomButtonAnswer = "..."
+                hideButtons()
             
             } else {
                 
                 storySelected = story5
-                topButtonAnswer = "..."
-                bottomButtonAnswer = "..."
+                hideButtons()
             
             }
         }
@@ -112,6 +109,13 @@ class ViewController: UIViewController {
         topButton.setTitle(topButtonAnswer, for: .normal)
         bottomButton.setTitle(bottomButtonAnswer, for: .normal)
     
+    }
+    
+    func hideButtons() {
+        
+      topButton.isHidden = true
+      bottomButton.isHidden = true
+
     }
 
 }
